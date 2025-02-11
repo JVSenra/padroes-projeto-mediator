@@ -10,8 +10,7 @@ class AtendenteTest {
     void deveElogiarRH() {
         Atendente atendente = new Atendente();
         assertEquals("A Ouvidoria agradece seu contato.\nO RH respondeu sua demanda conforme mensagem a seguir.\n" +
-                        ">>O RH agradece a mensagem: Ótimo atendimento",
-                atendente.elogiarRH("Ótimo atendimento"));
+                        ">>O RH agradece a mensagem: Ótimo atendimento", atendente.elogiarRH("Ótimo atendimento"));
     }
 
     @Test
